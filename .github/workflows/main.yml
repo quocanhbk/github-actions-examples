@@ -34,10 +34,10 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Install dependencies
-        run: npm ci --prefix simple
+        run: yarn --prefix simple
 
       - name: Run tests
-        run: npm test
+        run: yarn test
 
       - name: Build
-        run: npm run build
+        run: yarn build
