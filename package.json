@@ -8,5 +8,9 @@
   "main": "index.js",
   "repository": "https://github.com/quocanhbk/github-actions-examples",
   "author": "La Quoc Anh <hexagon.study@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "test-simple": "cd simple && npm run test",
+    "build-simple": "cd simple && npm run build"
+  }
 }

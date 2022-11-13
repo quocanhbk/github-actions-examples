@@ -28,16 +28,13 @@ jobs:
         with:
           node-version: '14'
 
-      # Move to simple directory
-      - name: Move to simple directory
-        run: cd simple
 
       # Runs a single command using the runners shell
       - name: Install dependencies
-        run: yarn --prefix simple
+        run: yarn
 
       - name: Run tests
-        run: yarn test
+        run: yarn test-simple
 
       - name: Build
-        run: yarn build
+        run: yarn build-simple
