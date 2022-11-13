@@ -34,7 +34,7 @@ jobs:
         run: yarn
 
       - name: Run tests
-        run: yarn test-simple
+        run: cd simple && yarn test
 
       - name: Build
-        run: yarn build-simple
+        run: cd simple && yarn build
