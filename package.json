@@ -1,0 +1,12 @@
+{
+  "name": "github-actions",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "simple"
+  ],
+  "main": "index.js",
+  "repository": "https://github.com/quocanhbk/github-actions-examples",
+  "author": "La Quoc Anh <hexagon.study@gmail.com>",
+  "license": "MIT"
+}
