@@ -34,7 +34,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Install dependencies
-        run: npm ci
+        run: npm ci --prefix simple
 
       - name: Run tests
         run: npm test
