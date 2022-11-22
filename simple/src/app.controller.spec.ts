@@ -18,7 +18,7 @@ describe("AppController", () => {
 
   describe("root", () => {
     it('should return "Hello World!"', () => {
-      console.log(process.env.NAME);
+      console.log(process.env.NAME === "LA QUOC ANH");
       expect(appController.getHello()).toBe("Hello World! I'm from Docker");
     });
   });
