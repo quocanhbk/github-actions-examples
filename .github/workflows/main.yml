@@ -6,9 +6,9 @@ name: CI on Main
 on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
   push:
-    branches: [ "main" ]
+    branches: ["main"]
   pull_request:
-    branches: [ "main" ]
+    branches: ["main"]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -26,8 +26,10 @@ jobs:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v2
         with:
-          node-version: '14'
+          node-version: "14"
 
+      - name: Echoing
+        run: echo "Hello ${{ env.NAME }}"
 
       # Runs a single command using the runners shell
       - name: Install dependencies

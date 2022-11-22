@@ -10,7 +10,6 @@
   "author": "La Quoc Anh <hexagon.study@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "test-simple": "cd simple && npm run test",
-    "build-simple": "cd simple && npm run build"
+    "dev-simple": "cd simple && yarn start:dev"
   }
 }
